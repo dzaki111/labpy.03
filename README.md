@@ -17,6 +17,15 @@ Program ini menghasilkan sejumlah `N` angka acak yang nilainya selalu kurang dar
    - Menggunakan `while` untuk memastikan setiap angka yang dihasilkan selalu kurang dari 0.5.
 3. **Fungsi Random**: Menggunakan fungsi `random()` dari modul `random` di Python untuk menghasilkan angka acak.
 
+## Cara Menggunakan Program
+1. Pastikan Python telah terinstal di komputer Anda.
+2. Simpan program ini sebagai `latihan1.py`.
+3. Buka terminal atau command prompt di lokasi penyimpanan file tersebut.
+4. Jalankan perintah berikut:
+   ```bash
+   python3 latihan1.py
+5. Masukkan nilai `N` sesuai jumlah angka acak yang ingin dihasilkan.
+
 ## Penjelasan Kode
 
 ### 1. Import Library Random
@@ -62,15 +71,6 @@ print("Selesai")
 ```
 Setelah semua angka yang diinginkan berhasil dihasilkan dan ditampilkan, program mencetak "Selesai" sebagai tanda bahwa proses telah berakhir.
 
-## Cara Menjalankan Program
-1. Pastikan Python telah terinstal di komputer Anda.
-2. Simpan program ini sebagai `latihan1.py`.
-3. Buka terminal atau command prompt di lokasi penyimpanan file tersebut.
-4. Jalankan perintah berikut:
-   ```bash
-   python3 latihan1.py
-5. Masukkan nilai `N` sesuai jumlah angka acak yang ingin dihasilkan.
-
 ## Contoh Output
 Jika pengguna memasukkan nilai `N = 5`, maka output yang dihasilkan mungkin terlihat seperti ini:
 
@@ -107,6 +107,15 @@ Program ini melakukan perhitungan laba bulanan dengan aturan sebagai berikut:
 4. **Bulan 8**: Mengalami penurunan laba menjadi 3% dari modal awal.
 
 Program akan menghitung laba untuk setiap bulan dan menampilkan hasilnya. Setelah 8 bulan, program juga menampilkan total laba yang diakumulasi selama periode tersebut.
+## Cara Menjalankan Program
+
+1. Pastikan Python sudah terinstal di komputer Anda.
+2. Simpan program ini sebagai latihan2.py.
+3. Buka terminal atau command prompt di lokasi penyimpanan file tersebut.
+4. Jalankan perintah berikut:
+```bash
+python3 latihan2.py
+```
 
 ## Penjelasan Kode
 ### 1. Modal Awal dan Variabel Laba
@@ -140,7 +149,6 @@ Program menggunakan loop fordari bulan 1 hingga 8. Di setiap iterasi, program me
    - Bulan 8 : laba 3% dari modal awal.
 
 ### 3. Menambahkan Laba ke Total Laba dan Menampilkan Laba per Bulan
-ular piton
 
 ```python
 total_laba += laba
@@ -149,22 +157,12 @@ print(f"laba bulan ke- {bulan} sebesar: {laba}")
 Setiap laba bulanan yang dihitung akan ditambahkan ke total_laba. Selain itu, program menampilkan laba yang diperoleh pada bulan tersebut.
 
 ### 4. Akhir Program: Menampilkan Total Laba
-ular piton
 
 ```python
 print(f"Total laba adalah: {total_laba}")
 ```
 Setelah loop selesai, program menampilkan total laba yang diperoleh selama 8 bulan.
 
-## Cara Menjalankan Program
-
-1. Pastikan Python sudah terinstal di komputer Anda.
-2. Simpan program ini sebagai latihan2.py.
-3. Buka terminal atau command prompt di lokasi penyimpanan file tersebut.
-4. Jalankan perintah berikut:
-```bash
-python3 latihan2.py
-```
 ## Contoh Output
 Jika Anda menjalankan program ini, outputnya mungkin akan terlihat seperti berikut:
 
@@ -239,7 +237,7 @@ Program menggunakan loop while yang berjalan terus-menerus hingga pengguna memil
 - Input Tidak Valid:
    Jika pengguna memasukkan pilihan selain "1" atau "2", program akan menampilkan pesan error dan meminta pengguna untuk memasukkan pilihan yang valid.
 
-Contoh Output
+## Contoh Output
 Berikut adalah contoh tampilan saat program berjalan:
 ```python
 Saldo saat ini: Rp 1000000

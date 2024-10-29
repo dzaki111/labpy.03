@@ -98,7 +98,7 @@ Output: Setiap angka acak ditampilkan dengan `format data ke: {nomor} => {angka}
 # LATIHAN 2.latihan2.py
 # Menghitung Laba Usaha selama 8 Bulan
 
-## Deskripsi Program
+## Deskripsi 
 
 Program ini melakukan perhitungan laba bulanan dengan aturan sebagai berikut:
 1. **Bulan 1 dan 2**: Belum mendapatkan laba (0%).

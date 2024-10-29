@@ -118,7 +118,6 @@ total_laba = 0
    - `total_laba: akumulasi total laba dari bulan 1 hingga 8, dimulai dari 0.`
 
 ### 2. Lingkaran Perhitungan Laba per Bulan
-ular piton
 ```python
 for bulan in range(1, 9):
     if bulan in [1, 2]:        # Bulan 1 dan 2 belum mendapatkan laba
